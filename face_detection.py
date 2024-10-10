@@ -38,5 +38,5 @@ while True:
         rgb_small_frame = np.ascontiguousarray(small_frame[:, :, ::-1])
         
         #Find all the faces and facial encodings in the current frame of the video
-        face_locations = face_recogition.face_locations(rgb_small_frame)
+        face_locations = face_recognition.face_locations(rgb_small_frame)
     
